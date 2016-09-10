@@ -3,30 +3,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>QRATES</title>
-        <script type="text/javascript" src="{{URL('/')}}/Frontend/styleCss/5c6c86d680.js"></script>
+        
         <script async="" charset="utf-8" src="{{ URL::asset('Frontend/styleCss/saved_resource.js')}}" type="text/javascript"></script>
         <script src="{{ URL::asset('Frontend/styleCss/nr-974.min.js')}}"></script>
         <script async="" src="{{ URL::asset('Frontend/styleCss/analytics.js')}}"></script>
-        <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5c6c86d680","applicationID":"8556409","transactionName":"dQpXQRdWCl4AQxYVWEZKUFsBXB4=","queueTime":0,"applicationTime":179,"agent":""}</script>
         <script type="text/javascript" src="{{ URL::asset('Frontend/styleCss/qrates.js')}}"></script>
-        <meta content="authenticity_token" name="csrf-param">
-        <meta content="+aGDH5T5SxlKsYnnWM0qcwYnzWR7XlPgiUApXGIbdMc=" name="csrf-token">
-        <meta content="QRATES,Analog, Record, Vinyl,Vinyl Pressing,LP,EP,Vinylize,???,Press" name="keywords">
-        <meta content="QRATES is a new music platform for vinyls. Integrated with download, streaming and other digital solutions, artists/labels can make a best use of the platform to promote and sell their music contents. QRATES also offers an unique Ԇunding SystemԠwhere the vinyl pressing fee can be collected from the fans before the manufacturing process, reducing the costs and risks that the artists/labels need to face. Vinyl can be pressed from a minimum of 100 copies. From designing the vinyl to ordering and selling it, QRATES offers an one stop platform for the best vinyl business solution." name="description"><meta content="width=device-width,initial-scale=1" name="viewport"><meta content="telephone=no" name="format-detection"><meta content="QRATES - Vinylize Your Music!" property="og:title">
-        <meta content="QRATES" property="og:site_name">
-        <meta content="website" property="og:type">
-        <meta content="QRATES is a new music platform for vinyls. Integrated with download, streaming and other digital solutions, artists/labels can make a best use of the platform to promote and sell their music contents. QRATES also offers an unique Ԇunding SystemԠwhere the vinyl pressing fee can be collected from the fans before the manufacturing process, reducing the costs and risks that the artists/labels need to face. Vinyl can be pressed from a minimum of 100 copies. From designing the vinyl to ordering and selling it, QRATES offers an one stop platform for the best vinyl business solution." property="og:description"><meta content="https://qrates.com/" property="og:url">
-        <meta content="https://qrates.com/resources/qrates_ogp.jpg" property="og:image">
-        <meta content="780809128639133" property="fb:app_id"><meta property="og:locale">
-        <meta property="og:locale:alternate">
         <link href="https://d1x26sjkwh9vok.cloudfront.net/assets/favicon-01c8fdb79bae9e4528c116149e73fe59.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
         <link href="{{ URL::asset('Frontend/styleCss/application-qrates.css')}}" media="all" rel="stylesheet">
-        <!--[if lte IE 9]>
-        <link href="//d1x26sjkwh9vok.cloudfront.net/assets/application_split2-336c60c08bc114729f22088c6c147f90.css" media="all" rel="stylesheet" />
-        <link href="//d1x26sjkwh9vok.cloudfront.net/assets/application_split3-c06dd6a542ea15147e6794e03643f87c.css" media="all" rel="stylesheet" />
-        <![endif]-->
         <script src="{{ URL::asset('Frontend/styleCss/sdk-3.1.2.js')}}"></script>
-        <script type="text/javascript">SC.initialize({client_id: "c1e3d1d98827587bbb5a55bb23435c37"});</script>
+
         <script src="{{ URL::asset('Frontend/styleCss/application-bf056b6f9804002851be0eca85efb855.js')}}"></script>
         <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-59387537-1', 'auto');ga('send', 'pageview');
             $(function(){
@@ -60,6 +45,7 @@
         <div id="container">
             <header class="header_wrap">
                 @include('Frontend.layout.header')
+                
             </header>
             <p class="alert"></p>
             <div class="user_toppage_index">
@@ -102,12 +88,6 @@
         <div>
             <iframe style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: absolute; bottom: auto; opacity: 1; right: 0px; width: 374px; height: 416px; top: -9999px; left: -9999px;" id="ticketSubmissionForm" class="zEWidget-ticketSubmissionForm" data-ze-reactid=".0" src="{{URL('/')}}/Frontend/styleCss/saved_resource(3).html"></iframe>
         </div>
-        <script>
-            (function(d,s){var z=$zopim,$=z.s= d.createElement(s),e=d.getElementsByTagName(s)[0];
-            $.async=!0;$.setAttribute('charset','utf-8');
-            $.src='//v2.zopim.com/?3sFNNIRNiLRmPcgo5DIiPz0qC1dpdRHD';
-            z.t=+new Date;$. type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
-        </script>
         <div>
             <iframe style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; bottom: 0px; opacity: 1; right: 0px; width: 140px; height: 48px; margin-left: 20px; margin-right: 20px; margin-bottom: 10px;" id="launcher" class="zEWidget-launcher zEWidget-launcher--active" data-ze-reactid=".2" src="{{URL('/')}}/Frontend/styleCss/saved_resource(4).html">
             </iframe>

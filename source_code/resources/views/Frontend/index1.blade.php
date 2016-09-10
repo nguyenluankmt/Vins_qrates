@@ -47,7 +47,7 @@
                             <div class="background" style="background-image: url(//d1x26sjkwh9vok.cloudfront.net/assets/top_banners/bg_vinylizeit-cccc2662f2b5f57b4d2bfa42aa41368d.jpg)"></div>
                             <div class="banner-content">
                                 <div class="title">
-                                    <img alt="Vinylize.it" class="logo-image" src="./index1_files/fig_vinylizeit_logo-8d8fde2a10a6769514f5d115064bb66e.svg">
+                                    <img alt="Vinylize.it" class="logo-image" src="{{ URL::asset('Frontend/styleCss/fig_vinylizeit_logo-8d8fde2a10a6769514f5d115064bb66e.svg')}}">
                                 </div>
                                 <div class="sub-title">Want It, Share It, Vinylize It<br>Make real vinyl records from any SoundCloud track.</div>
                             </div>
@@ -68,21 +68,21 @@
         <div class="projects_row_wrap">
             <div class="project_box">
                 <div class="image_box">
-                    <img alt="Image003" src="./index1_files/image003-d11ee31931b8f3dcd83f2e197c11cba1.png">
+                    <img alt="Image003" src="{{ URL::asset('Frontend/styleCss/image003-d11ee31931b8f3dcd83f2e197c11cba1.png')}}">
                 </div>
                 <h4>On Demand Vinyl</h4>
                 <div class="description">Start taking pre-orders or press with crowdfunding from little as 100 copies.</div>
             </div>
             <div class="project_box">
                 <div class="image_box">
-                    <img alt="Image004" src="./index1_files/image004-a813a932ffa5dd15549dc994cc4d7527.png">
+                    <img alt="Image004" src="{{ URL::asset('Frontend/styleCss/image004-a813a932ffa5dd15549dc994cc4d7527.png')}}">
                 </div>
                 <h4>World Class Speed and Quality</h4>
                 <div class="description">Average delivery in 6-8 weeks.  Shipping worldwide.</div>
             </div>
             <div class="project_box">
                 <div class="image_box">
-                    <img alt="Image011" src="./index1_files/image011-1aca9e5faeb709b216bd595e21d0a731.png">
+                    <img alt="Image011" src="{{ URL::asset('Frontend/styleCss/image011-1aca9e5faeb709b216bd595e21d0a731.png')}}">
                 </div>
                 <h4>Financial risk and free fulfilment</h4>
                 <div class="description">offering multiple solutions</div>
@@ -110,9 +110,9 @@
                         </div>
                         <div class="item__image">
                             <a href="https://qrates.com/artists/adamsantoya/items/12480">
-                                <img alt="Small thumbnail 493d1a39 bd26 4792 b32c 7f02a55f2bdc" height="220" src="./index1_files/small_thumbnail_493d1a39-bd26-4792-b32c-7f02a55f2bdc.png" width="220">
+                                <img alt="Small thumbnail 493d1a39 bd26 4792 b32c 7f02a55f2bdc" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_493d1a39-bd26-4792-b32c-7f02a55f2bdc.png')}}" width="220">
                             </a>
-                            <img alt="Small thumbnail d616508a eecd 439c 881f 5fb875c89acb" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_d616508a-eecd-439c-881f-5fb875c89acb.png" width="220">
+                            <img alt="Small thumbnail d616508a eecd 439c 881f 5fb875c89acb" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_d616508a-eecd-439c-881f-5fb875c89acb.png')}}" width="220">
                         </div>
                         <div class="item__rate    ">
                             <div class="item__progress">
@@ -149,9 +149,9 @@
                         </div>
                         <div class="item__image">
                             <a href="https://qrates.com/artists/11909/items/12420">
-                                <img alt="Small thumbnail 15c38d03 461f 436b b129 adec9e777275" height="220" src="./index1_files/small_thumbnail_15c38d03-461f-436b-b129-adec9e777275.png" width="220">
+                                <img alt="Small thumbnail 15c38d03 461f 436b b129 adec9e777275" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_15c38d03-461f-436b-b129-adec9e777275.png')}}" width="220">
                             </a>
-                            <img alt="Small thumbnail b25ab2eb 73a7 4290 b045 f5daf04f2fda" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_b25ab2eb-73a7-4290-b045-f5daf04f2fda.png" width="220">
+                            <img alt="Small thumbnail b25ab2eb 73a7 4290 b045 f5daf04f2fda" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_b25ab2eb-73a7-4290-b045-f5daf04f2fda.png')}}" width="220">
                         </div>
                         <div class="item__rate    indefinite">
                             <div class="item__progress">
@@ -187,9 +187,9 @@
                         </div>
                         <div class="item__image">
                             <a href="https://qrates.com/artists/shelter/items/12487">
-                                <img alt="Small thumbnail 57ae62f7 82d8 4805 83e1 3a824afcda1f" height="220" src="./index1_files/small_thumbnail_57ae62f7-82d8-4805-83e1-3a824afcda1f.png" width="220">
+                                <img alt="Small thumbnail 57ae62f7 82d8 4805 83e1 3a824afcda1f" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_57ae62f7-82d8-4805-83e1-3a824afcda1f.png')}}" width="220">
                             </a>
-                            <img alt="Small thumbnail 2e563289 e98b 416e 8979 8e03cb41f744" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_2e563289-e98b-416e-8979-8e03cb41f744.png" width="220">
+                            <img alt="Small thumbnail 2e563289 e98b 416e 8979 8e03cb41f744" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_2e563289-e98b-416e-8979-8e03cb41f744.png')}}" width="220">
                         </div>
                         <div class="item__rate    indefinite">
                             <div class="item__progress">
@@ -225,9 +225,9 @@
                     </div>
                     <div class="item__image">
                         <a href="https://qrates.com/artists/djhybrid/items/12504">
-                            <img alt="Small thumbnail ceb9eacf 72be 451a 8283 4825be970cfb" height="220" src="./index1_files/small_thumbnail_ceb9eacf-72be-451a-8283-4825be970cfb.png" width="220">
+                            <img alt="Small thumbnail ceb9eacf 72be 451a 8283 4825be970cfb" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_ceb9eacf-72be-451a-8283-4825be970cfb.png')}}" width="220">
                         </a>
-                        <img alt="Small thumbnail 44155942 48d0 4883 85cf 2cf8a2c859cf" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_44155942-48d0-4883-85cf-2cf8a2c859cf.png" width="220">
+                        <img alt="Small thumbnail 44155942 48d0 4883 85cf 2cf8a2c859cf" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_44155942-48d0-4883-85cf-2cf8a2c859cf.png')}}" width="220">
                     </div>
                     <div class="item__rate    ">
                         <div class="item__progress">
@@ -272,9 +272,9 @@
                     </div>
                     <div class="item__image">
                         <a href="https://qrates.com/artists/dr_unkenbeat/items/12189">
-                            <img alt="Small thumbnail 69565ef3 922c 4497 97c0 fc62a57106dd" height="220" src="./index1_files/small_thumbnail_69565ef3-922c-4497-97c0-fc62a57106dd.png" width="220">
+                            <img alt="Small thumbnail 69565ef3 922c 4497 97c0 fc62a57106dd" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_69565ef3-922c-4497-97c0-fc62a57106dd.png')}}" width="220">
                         </a>
-                        <img alt="Small thumbnail 79c738d8 a7a1 4f77 8f90 4c7cb23b7ce0" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_79c738d8-a7a1-4f77-8f90-4c7cb23b7ce0.png" width="220">
+                        <img alt="Small thumbnail 79c738d8 a7a1 4f77 8f90 4c7cb23b7ce0" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_79c738d8-a7a1-4f77-8f90-4c7cb23b7ce0.png')}}" width="220">
                     </div>
                     <div class="item__rate  status_project_achieved--finished  ">
                         <div class="item__progress">
@@ -308,9 +308,9 @@
                     </div>
                     <div class="item__image">
                         <a href="https://qrates.com/artists/ChillhopRecords/items/12341">
-                            <img alt="Small thumbnail fd6466ab 83e3 4d56 ba24 33e972fb7b99" height="220" src="./index1_files/small_thumbnail_fd6466ab-83e3-4d56-ba24-33e972fb7b99.png" width="220">
+                            <img alt="Small thumbnail fd6466ab 83e3 4d56 ba24 33e972fb7b99" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_fd6466ab-83e3-4d56-ba24-33e972fb7b99.png')}}" width="220">
                         </a>
-                        <img alt="Small thumbnail bc1e1357 20c1 4c1b 9154 20d5ba976832" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_bc1e1357-20c1-4c1b-9154-20d5ba976832.png" width="220">
+                        <img alt="Small thumbnail bc1e1357 20c1 4c1b 9154 20d5ba976832" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_bc1e1357-20c1-4c1b-9154-20d5ba976832.png')}}" width="220">
                     </div>
                     <div class="item__rate  status_project_achieved--finished  indefinite">
                         <div class="item__progress">
@@ -344,9 +344,9 @@
                     </div>
                     <div class="item__image">
                         <a href="https://qrates.com/artists/Greenland/items/12231">
-                            <img alt="Small thumbnail e14cd915 7d63 4a78 a3c2 9627c9cb454a" height="220" src="./index1_files/small_thumbnail_e14cd915-7d63-4a78-a3c2-9627c9cb454a.png" width="220">
+                            <img alt="Small thumbnail e14cd915 7d63 4a78 a3c2 9627c9cb454a" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_e14cd915-7d63-4a78-a3c2-9627c9cb454a.png')}}" width="220">
                         </a>
-                        <img alt="Small thumbnail c78cb3ca 0f7b 4a59 87b1 544b5d179872" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_c78cb3ca-0f7b-4a59-87b1-544b5d179872.png" width="220">
+                        <img alt="Small thumbnail c78cb3ca 0f7b 4a59 87b1 544b5d179872" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_c78cb3ca-0f7b-4a59-87b1-544b5d179872.png')}}" width="220">
                     </div>
                     <div class="item__rate  status_project_achieved--finished  ">
                         <div class="item__progress">
@@ -380,9 +380,9 @@
                     </div>
                     <div class="item__image">
                         <a href="https://qrates.com/artists/rivegauchemusic/items/12121">
-                            <img alt="Small thumbnail 46ec595c 961d 4807 9cf1 25f0578f4788" height="220" src="./index1_files/small_thumbnail_46ec595c-961d-4807-9cf1-25f0578f4788.png" width="220">
+                            <img alt="Small thumbnail 46ec595c 961d 4807 9cf1 25f0578f4788" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_46ec595c-961d-4807-9cf1-25f0578f4788.png')}}" width="220">
                         </a>
-                        <img alt="Small thumbnail 482ca815 dbf2 4451 8c2c db607e2be40b" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_482ca815-dbf2-4451-8c2c-db607e2be40b.png" width="220">
+                        <img alt="Small thumbnail 482ca815 dbf2 4451 8c2c db607e2be40b" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_482ca815-dbf2-4451-8c2c-db607e2be40b.png')}}" width="220">
                     </div>
                     <div class="item__rate  status_project_achieved--finished  ">
                         <div class="item__progress">
@@ -431,9 +431,9 @@
                     </div>
                     <div class="item__image">
                         <a href="https://qrates.com/artists/djhybrid/items/12504">
-                            <img alt="Small thumbnail ceb9eacf 72be 451a 8283 4825be970cfb" height="220" src="./index1_files/small_thumbnail_ceb9eacf-72be-451a-8283-4825be970cfb.png" width="220">
+                            <img alt="Small thumbnail ceb9eacf 72be 451a 8283 4825be970cfb" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_ceb9eacf-72be-451a-8283-4825be970cfb.png')}}" width="220">
                         </a>
-                        <img alt="Small thumbnail 44155942 48d0 4883 85cf 2cf8a2c859cf" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_44155942-48d0-4883-85cf-2cf8a2c859cf.png" width="220">
+                        <img alt="Small thumbnail 44155942 48d0 4883 85cf 2cf8a2c859cf" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_44155942-48d0-4883-85cf-2cf8a2c859cf.png')}}" width="220">
                     </div>
                     <div class="item__rate    ">
                         <div class="item__progress">
@@ -470,9 +470,9 @@
                     </div>
                     <div class="item__image">
                         <a href="https://qrates.com/artists/Greenland/items/12231">
-                            <img alt="Small thumbnail e14cd915 7d63 4a78 a3c2 9627c9cb454a" height="220" src="./index1_files/small_thumbnail_e14cd915-7d63-4a78-a3c2-9627c9cb454a.png" width="220">
+                            <img alt="Small thumbnail e14cd915 7d63 4a78 a3c2 9627c9cb454a" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_e14cd915-7d63-4a78-a3c2-9627c9cb454a.png')}}" width="220">
                         </a>
-                        <img alt="Small thumbnail c78cb3ca 0f7b 4a59 87b1 544b5d179872" class="item__vinyl" height="220" src="./index1_files/small_thumbnail_c78cb3ca-0f7b-4a59-87b1-544b5d179872.png" width="220">
+                        <img alt="Small thumbnail c78cb3ca 0f7b 4a59 87b1 544b5d179872" class="item__vinyl" height="220" src="{{ URL::asset('Frontend/styleCss/small_thumbnail_c78cb3ca-0f7b-4a59-87b1-544b5d179872.png')}}" width="220">
                     </div>
                     <div class="item__rate  status_project_achieved--finished  ">
                         <div class="item__progress">
@@ -545,7 +545,7 @@
 <section class="content-vinylize">
     <h3>Vinylize Your Music</h3>
     <div class="image_box">
-        <img alt="Image008" src="./index1_files/image008-6bccb32312adf9357ea473d1360ea88a.png">
+        <img alt="Image008" src="{{ URL::asset('Frontend/styleCss/image008-6bccb32312adf9357ea473d1360ea88a.png')}}">
     </div>
     <div class="btn__start_project">
         <a data-ga-event="Inbound|Click|VinylizeSectionCTA|https://qrates.com/vinylize" href="https://qrates.com/vinylize">

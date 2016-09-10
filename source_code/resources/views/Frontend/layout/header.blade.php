@@ -19,7 +19,7 @@
                                 </div>
                             </li>
                             <li class="header__link--login">
-                                <a class="header__link__login" href="https://qrates.com/user/login">Login</a>
+                                <a class="header__link__login" href="{{URL('/')}}/login">Login</a>
                             </li>
                             <li class="header__link--vinylize">
                                 <div class="btn__vinylize">

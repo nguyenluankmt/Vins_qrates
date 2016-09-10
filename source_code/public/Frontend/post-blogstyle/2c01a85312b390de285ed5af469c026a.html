@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://blog.qrates.com/media/2c01a85312b390de285ed5af469c026a?maxWidth=640 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="twitter:widgets:csp" content="on"><meta name="robots" content="noindex"><!--<base target="_blank">--><base href="." target="_blank"><style>body {text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "ff-tisa-web-pro", Georgia, Cambria, "Times New Roman", Times, serif; font-weight: 400; color: #333332; font-size: 18px; line-height: 1.4; margin: 0; background-color: white; overflow: hidden;}iframe {max-width: 100%;}</style></head><body><iframe src="./media.html" width="640" height="480" allowfullscreen="" frameborder="0" scrolling="no"></iframe><script>var handlingOwnSize = false;
+function notifyResize() {var resized = false; if (window.donkey && donkey.resize) {donkey.resize(document.documentElement.offsetHeight); resized = true;}if (parent && parent._resizeIframe) {parent._resizeIframe(window.frameElement); resized = true;}if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.resize) {window.webkit.messageHandlers.resize.postMessage(document.documentElement.offsetHeight); resized = true;}return resized;}function setSizeFromModel(width, height) {
+if (handlingOwnSize) return;
+var iframe = document.querySelector("iframe");
+iframe.setAttribute("width", width);
+iframe.setAttribute("height", height);
+}
+function adjustSize() {
+var originalWidth =  640 ;
+var originalHeight =  480 ;
+var width = document.body.offsetWidth;
+setSizeFromModel(width, width * originalHeight / originalWidth);}
+function handleMessage(event) {
+if (!event.data || (typeof event.data != 'string')) {
+return false;
+}
+var data;
+try {
+data = JSON.parse(event.data);
+} catch (e) {
+console.error(e);
+return false;
+}
+var iframe = document.querySelector('iframe');
+if (!iframe || data.context !== 'iframe.resize') {
+return false;
+}
+handlingOwnSize = true;
+if (data.height) {
+iframe.height = data.height;
+}
+if (data.width) {
+iframe.width = data.width;
+}
+notifyResize();
+}; window.onresize = adjustSize;
+window.onload = adjustSize;
+window.addEventListener('message', handleMessage)</script></body></html>
